@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\elena\\source\\repos\\Empire.Shared\\Empire.Shared.Utilities\\Empire.Shared.Utilities.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\elena\\source\\repos\\Empire.Shared\\Empire.Shared.Utilities\\Empire.Shared.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elena\\source\\repos\\Empire.Shared\\Empire.Shared.Utilities\\Empire.Shared.Utilities.csproj",
+        "projectName": "Empire.Shared.Utilities",
+        "projectPath": "C:\\Users\\elena\\source\\repos\\Empire.Shared\\Empire.Shared.Utilities\\Empire.Shared.Utilities.csproj",
+        "packagesPath": "C:\\Users\\elena\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elena\\source\\repos\\Empire.Shared\\Empire.Shared.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\elena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Microsoft.Azure.Management.KeyVault": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+-  3/10/2021 11:00:22 AM
+  -  Server: MA_Send|| # 17 bounces; latest @ 3/5/2021 7:54:33 PM
+  -  Server: MD_Send|| # 30 bounces; latest @ 3/10/2021 3:40:58 PM
+  -  Server: NC_SEND|| # 30 bounces; latest @ 3/10/2021 1:37:15 PM
+  -  Server: NJ_Send|| # 30 bounces; latest @ 3/10/2021 3:43:48 PM
+-  3/10/2021 11:00:24 AM
+-  3/10/2021 11:01:16 AM
+  -  Server: MA_Send|| # 17 bounces; latest @ 3/5/2021 7:54:33 PM
+  -  Server: MD_Send|| # 30 bounces; latest @ 3/10/2021 3:40:58 PM
+  -  Server: NC_SEND|| # 30 bounces; latest @ 3/10/2021 1:37:15 PM
+  -  Server: NJ_Send|| # 30 bounces; latest @ 3/10/2021 3:43:48 PM
+-  3/10/2021 11:01:18 AM
+-  3/10/2021 11:36:50 AM
+  -  Server: NJ_Send|| # 30 bounces; latest @ 3/10/2021 4:21:28 PM
+  -  Server: NC_SEND|| # 30 bounces; latest @ 3/10/2021 1:37:15 PM
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[EmailFax].[uspPMBounce_Insert] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[EmailFax].[uspPMBounce_Insert] - Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=35756; handshake=0; 
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=35756; handshake=0; 
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+  -  Server: MD_Send|| # 30 bounces; latest @ 3/10/2021 3:40:58 PM
+  -  Server: MA_Send|| # 17 bounces; latest @ 3/5/2021 7:54:33 PM
+-  3/10/2021 11:38:34 AM
+-  3/10/2021 11:39:52 AM
+  -  Server: NJ_Send|| # 30 bounces; latest @ 3/10/2021 4:21:28 PM
+  -  Server: NC_SEND|| # 30 bounces; latest @ 3/10/2021 1:37:15 PM
+  -  Server: MD_Send|| # 30 bounces; latest @ 3/10/2021 3:40:58 PM
+  -  Server: MA_Send|| # 17 bounces; latest @ 3/5/2021 7:54:33 PM
+-  3/10/2021 11:39:54 AM
+-  3/10/2021 11:44:19 AM
+  -  Server: NJ_Send|| # 30 bounces; latest @ 3/10/2021 4:21:28 PM
+  -  Server: NC_SEND|| # 30 bounces; latest @ 3/10/2021 1:37:15 PM
+  -  Server: MD_Send|| # 30 bounces; latest @ 3/10/2021 3:40:58 PM
+  -  Server: MA_Send|| # 17 bounces; latest @ 3/5/2021 7:54:33 PM
+-  3/10/2021 11:44:20 AM
+-  3/10/2021 11:48:22 AM
+  -  Server: NJ_Send|| # 30 bounces; latest @ 3/10/2021 4:21:28 PM
+[EmailFax].[uspPMBounce_Insert] - Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1; handshake=1; [Login] initialization=0; authentication=1; [Post-Login] complete=39559; 
+[EmailFax].[uspPMBounce_Insert] - Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1; handshake=1; [Login] initialization=0; authentication=1; [Post-Login] complete=39559; 
+  -  Server: NC_SEND|| # 30 bounces; latest @ 3/10/2021 1:37:15 PM
+[EmailFax].[uspPMBounce_Insert] - Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1; handshake=1; [Login] initialization=0; authentication=1; [Post-Login] complete=39559; 
+[EmailFax].[uspPMBounce_Insert] - Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1; handshake=1; [Login] initialization=0; authentication=1; [Post-Login] complete=39559; 
+  -  Server: MD_Send|| # 30 bounces; latest @ 3/10/2021 3:40:58 PM
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+  -  Server: MA_Send|| # 17 bounces; latest @ 3/5/2021 7:54:33 PM
+[EmailFax].[uspPM_Update_Server_LastBounceCheck_DT] - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+-  3/10/2021 11:50:13 AM
+-  3/10/2021 11:52:18 AM
+  -  Server: NJ_Send|| # 30 bounces; latest @ 3/10/2021 4:21:28 PM
+  -  Server: NC_SEND|| # 30 bounces; latest @ 3/10/2021 1:37:15 PM
+  -  Server: MD_Send|| # 30 bounces; latest @ 3/10/2021 3:40:58 PM
+  -  Server: MA_Send|| # 17 bounces; latest @ 3/5/2021 7:54:33 PM
+-  3/10/2021 11:52:19 AM
+-  3/10/2021 11:56:10 AM
+  -  Server: NJ_Send|| # 30 bounces; latest @ 3/10/2021 4:54:46 PM
+  -  Server: NC_SEND|| # 30 bounces; latest @ 3/10/2021 1:37:15 PM
+  -  Server: MD_Send|| # 30 bounces; latest @ 3/10/2021 3:40:58 PM
+  -  Server: MA_Send|| # 17 bounces; latest @ 3/5/2021 7:54:33 PM
+-  3/10/2021 11:56:11 AM

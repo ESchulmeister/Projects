@@ -1,0 +1,79 @@
+-  3/9/2021 2:22:23 PM
+Error : 
+ Keyword not supported: 'integratedsecurity'. @ 
+    at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   at Empire.Shared.Data.SqlDataAdapter.InitConnection() in C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\SqlDataAdapter.cs:line 107
+   at Empire.Shared.Data.SqlDataAdapter.<QueryAsync>d__7.MoveNext() in C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\SqlDataAdapter.cs:line 50
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at PostMark.Data.ServerRepository.<List>d__1.MoveNext() in C:\Users\elena\source\repos\PostmarkUtils\PostMark.Data\ServerRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Postmark.Business.ServerFactory.<List>d__0.MoveNext() in C:\Users\elena\source\repos\PostmarkUtils\Postmark.Business\Factories\ServerFactory.cs:line 25
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at PostmarkUtils.Program.<Main>d__3.MoveNext() in C:\Users\elena\source\repos\PostmarkUtils\PostmarkUtils\Program.cs:line 61
+-  3/9/2021 2:22:24 PM
+-  3/9/2021 2:25:11 PM
+Error : 
+ Cannot open database "POY_Dev" requested by the login. The login failed.
+Login failed for user 'verinow-sql\elena'. @ 
+    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at Empire.Shared.Data.SqlDataAdapter.<InitCommand>d__9.MoveNext() in C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\SqlDataAdapter.cs:line 90
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Empire.Shared.Data.SqlDataAdapter.<QueryAsync>d__7.MoveNext() in C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\SqlDataAdapter.cs:line 51
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at PostMark.Data.ServerRepository.<List>d__1.MoveNext() in C:\Users\elena\source\repos\PostmarkUtils\PostMark.Data\ServerRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Postmark.Business.ServerFactory.<List>d__0.MoveNext() in C:\Users\elena\source\repos\PostmarkUtils\Postmark.Business\Factories\ServerFactory.cs:line 25
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at PostmarkUtils.Program.<Main>d__3.MoveNext() in C:\Users\elena\source\repos\PostmarkUtils\PostmarkUtils\Program.cs:line 61
+-  3/9/2021 2:25:23 PM
+-  3/9/2021 2:33:59 PM
+  -  Server: MA_Send|| # 17 bounces; latest @ 3/5/2021 7:54:33 PM
+  -  Server: MD_Send|| # 30 bounces; latest @ 3/9/2021 7:27:14 PM
+  -  Server: NC_SEND|| # 30 bounces; latest @ 3/9/2021 3:18:51 PM
+  -  Server: NJ_Send|| # 30 bounces; latest @ 3/9/2021 7:26:53 PM
+-  3/9/2021 2:34:44 PM
+-  3/9/2021 2:42:03 PM
+  -  Server: MA_Send|| # 17 bounces; latest @ 3/5/2021 7:54:33 PM
+  -  Server: MD_Send|| # 30 bounces; latest @ 3/9/2021 7:27:14 PM
+  -  Server: NC_SEND|| # 30 bounces; latest @ 3/9/2021 3:18:51 PM
+  -  Server: NJ_Send|| # 30 bounces; latest @ 3/9/2021 7:26:53 PM
+-  3/9/2021 2:42:05 PM

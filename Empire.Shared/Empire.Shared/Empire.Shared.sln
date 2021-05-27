@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empire.Shared.Utilities", "Empire.Shared.Utilities\Empire.Shared.Utilities.csproj", "{372CA395-5AB5-4C31-9584-6798BEDA6502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empire.Shared.Business", "Empire.Shared.Business\Empire.Shared.Business.csproj", "{CD5F9933-EEBB-4520-A1A9-67D9205335F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empire.Shared.Data", "Empire.Shared.Data\Empire.Shared.Data.csproj", "{DED34AEE-900D-4A3E-9D03-4E8C00A336DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{372CA395-5AB5-4C31-9584-6798BEDA6502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372CA395-5AB5-4C31-9584-6798BEDA6502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372CA395-5AB5-4C31-9584-6798BEDA6502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372CA395-5AB5-4C31-9584-6798BEDA6502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD5F9933-EEBB-4520-A1A9-67D9205335F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD5F9933-EEBB-4520-A1A9-67D9205335F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD5F9933-EEBB-4520-A1A9-67D9205335F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD5F9933-EEBB-4520-A1A9-67D9205335F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED34AEE-900D-4A3E-9D03-4E8C00A336DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED34AEE-900D-4A3E-9D03-4E8C00A336DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED34AEE-900D-4A3E-9D03-4E8C00A336DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED34AEE-900D-4A3E-9D03-4E8C00A336DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {CDC16D46-E696-43A2-97E3-78A2E0466606}
+	EndGlobalSection
+EndGlobal

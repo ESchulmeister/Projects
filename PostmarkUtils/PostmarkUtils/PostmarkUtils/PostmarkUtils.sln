@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostmarkUtils", "PostmarkUtils\PostmarkUtils.csproj", "{F1A4581B-EDA8-4B39-AAA2-B0FA25D49276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostMark.Data", "PostMark.Data\PostMark.Data.csproj", "{9DD58539-F3F5-4FBE-A740-C919D908D1C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postmark.Business", "Postmark.Business\Postmark.Business.csproj", "{95C3E193-DE1E-4785-9830-B26E15D59522}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1A4581B-EDA8-4B39-AAA2-B0FA25D49276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A4581B-EDA8-4B39-AAA2-B0FA25D49276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A4581B-EDA8-4B39-AAA2-B0FA25D49276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A4581B-EDA8-4B39-AAA2-B0FA25D49276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD58539-F3F5-4FBE-A740-C919D908D1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD58539-F3F5-4FBE-A740-C919D908D1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD58539-F3F5-4FBE-A740-C919D908D1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD58539-F3F5-4FBE-A740-C919D908D1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C3E193-DE1E-4785-9830-B26E15D59522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C3E193-DE1E-4785-9830-B26E15D59522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C3E193-DE1E-4785-9830-B26E15D59522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C3E193-DE1E-4785-9830-B26E15D59522}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {163CA258-DB63-4DD8-BE6C-446703732A1D}
+	EndGlobalSection
+EndGlobal

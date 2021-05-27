@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cgv5JKKGLexATL5n+x0AC4ukUzdXeAVtcD5A6tQ6/PH1ORa4bDIa8v3erUHymJmrstVTsJ4mwg23NHdr/45m6A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\elena\\source\\repos\\Empire.Shared\\Empire.Shared.Utilities\\Empire.Shared.Utilities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elena\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
+    "C:\\Users\\elena\\.nuget\\packages\\microsoft.azure.keyvault.core\\1.0.0\\microsoft.azure.keyvault.core.1.0.0.nupkg.sha512",
+    "C:\\Users\\elena\\.nuget\\packages\\microsoft.azure.management.keyvault\\3.1.0\\microsoft.azure.management.keyvault.3.1.0.nupkg.sha512",
+    "C:\\Users\\elena\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.20\\microsoft.rest.clientruntime.2.3.20.nupkg.sha512",
+    "C:\\Users\\elena\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.19\\microsoft.rest.clientruntime.azure.3.3.19.nupkg.sha512",
+    "C:\\Users\\elena\\.nuget\\packages\\newtonsoft.json\\10.0.3\\newtonsoft.json.10.0.3.nupkg.sha512",
+    "C:\\Users\\elena\\.nuget\\packages\\windowsazure.storage\\9.3.3\\windowsazure.storage.9.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}

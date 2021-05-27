@@ -1,0 +1,15 @@
+C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\bin\Debug\Empire.Shared.Data.dll
+C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\bin\Debug\Empire.Shared.Data.pdb
+C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\bin\Debug\Empire.Shared.Utilities.dll
+C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\bin\Debug\log4net.dll
+C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\bin\Debug\Empire.Shared.Utilities.pdb
+C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\bin\Debug\Empire.Shared.Utilities.dll.config
+C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\obj\Debug\Empire.Shared.Data.csprojAssemblyReference.cache
+C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\obj\Debug\Empire.Shared.Data.csproj.CoreCompileInputs.cache
+C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\obj\Debug\Empire.Shared.Data.csproj.CopyComplete
+C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\obj\Debug\Empire.Shared.Data.dll
+C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\obj\Debug\Empire.Shared.Data.pdb

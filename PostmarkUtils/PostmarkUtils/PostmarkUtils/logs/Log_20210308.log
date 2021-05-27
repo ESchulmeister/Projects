@@ -1,0 +1,54 @@
+-  3/8/2021 10:10:02 AM
+  -  Server: MA_Send|| # 17 bounces; latest @ 3/5/2021 7:54:33 PM
+  -  Server: MD_Send|| # 30 bounces; latest @ 3/8/2021 2:27:26 PM
+  -  Server: NC_SEND|| # 30 bounces; latest @ 3/8/2021 2:06:44 PM
+  -  Server: NJ_Send|| # 30 bounces; latest @ 3/8/2021 2:30:59 PM
+-  3/8/2021 10:10:37 AM
+-  3/8/2021 10:23:17 AM
+Error : 
+ Could not find stored procedure 'EmailFax.uspPM_Get_Servers x'. @ 
+    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Empire.Shared.Data.SqlDataAdapter.<QueryAsync>d__7.MoveNext() in C:\Users\elena\source\repos\Empire.Shared\Empire.Shared.Data\SqlDataAdapter.cs:line 53
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at PostMark.Data.ServerRepository.<List>d__1.MoveNext() in C:\Users\elena\source\repos\PostmarkUtils\PostMark.Data\ServerRepository.cs:line 27
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Postmark.Business.ServerFactory.<List>d__0.MoveNext() in C:\Users\elena\source\repos\PostmarkUtils\Postmark.Business\Factories\ServerFactory.cs:line 25
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at PostmarkUtils.Program.<Main>d__3.MoveNext() in C:\Users\elena\source\repos\PostmarkUtils\PostmarkUtils\Program.cs:line 61
+-  3/8/2021 10:23:37 AM
+-  3/8/2021 10:34:57 AM
+  -  Server: MA_Send|| # 17 bounces; latest @ 3/5/2021 7:54:33 PM
+  -  Server: MD_Send|| # 30 bounces; latest @ 3/8/2021 3:13:44 PM
+  -  Server: NC_SEND|| # 30 bounces; latest @ 3/8/2021 2:06:44 PM
+  -  Server: NJ_Send|| # 30 bounces; latest @ 3/8/2021 2:30:59 PM
+-  3/8/2021 10:34:58 AM
+-  3/8/2021 11:34:51 AM
+  -  Server: MA_Send|| # 17 bounces; latest @ 3/5/2021 7:54:33 PM
+  -  Server: MD_Send|| # 30 bounces; latest @ 3/8/2021 3:13:44 PM
+  -  Server: NC_SEND|| # 30 bounces; latest @ 3/8/2021 2:06:44 PM
+  -  Server: NJ_Send|| # 30 bounces; latest @ 3/8/2021 4:10:58 PM
+-  3/8/2021 11:35:56 AM
