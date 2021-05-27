@@ -1,0 +1,13 @@
+2021-04-08 10:08:51,770 (DEBUG FieldViewLogger) -  - Not Found;
+    at Empire.Shared.Utilities.RestApiClient.Get(String sUrl) in C:\Users\elena\sourceepos\Empire.Shared\Empire.Shared.Utilities\RestAPI\RestApiClient.cs:line 56
+   at Empire.DriverLog.LogDispatchRestApiClient.AuthenticateUser(String sUserID, String sPassword, Boolean bRemember) in C:\Users\elena\sourceepos\Empire.DriverLogDispatch\Empire.DriverLogDispatch\Wrappers\LogDispatchRestApiClient.cs:line 52
+   at Empire.DriverLog.Controllers.AccountController.AuthenticateUser(String sUserID, String sPassword, Boolean bRemember) in C:\Users\elena\sourceepos\Empire.DriverLogDispatch\Empire.DriverLogDispatch\Controllers\AccountController.cs:line 184
+2021-04-08 10:08:51,803 (DEBUG FieldViewLogger) - Login - eschulmeister - Not Found;
+2021-04-08 10:08:56,867 (DEBUG FieldViewLogger) -  - Not Found;
+    at Empire.Shared.Utilities.RestApiClient.Get(String sUrl) in C:\Users\elena\sourceepos\Empire.Shared\Empire.Shared.Utilities\RestAPI\RestApiClient.cs:line 56
+   at Empire.DriverLog.LogDispatchRestApiClient.AuthenticateUser(String sUserID, String sPassword, Boolean bRemember) in C:\Users\elena\sourceepos\Empire.DriverLogDispatch\Empire.DriverLogDispatch\Wrappers\LogDispatchRestApiClient.cs:line 52
+   at Empire.DriverLog.Controllers.AccountController.AuthenticateUser(String sUserID, String sPassword, Boolean bRemember) in C:\Users\elena\sourceepos\Empire.DriverLogDispatch\Empire.DriverLogDispatch\Controllers\AccountController.cs:line 184
+2021-04-08 10:08:56,883 (DEBUG FieldViewLogger) - Login - eschulmeister - Not Found;
+2021-04-08 10:09:56,423 (DEBUG FieldViewLogger) -  #eschulmeister - logged in
+2021-04-08 10:09:56,834 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-08 10:26:23,375 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False

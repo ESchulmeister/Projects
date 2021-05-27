@@ -1,0 +1,140 @@
+2021-04-07 10:08:08,358 (DEBUG FieldViewLogger) -  #eschulmeister - logged in
+2021-04-07 10:08:08,778 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - False
+2021-04-07 10:18:25,696 (DEBUG FieldViewLogger) -  #eschulmeister - logged in
+2021-04-07 10:18:26,127 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - False
+2021-04-07 10:18:30,209 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 10:18:33,439 (DEBUG FieldViewLogger) -  Run - 996367;  can complete ? - True
+2021-04-07 15:09:30,345 (DEBUG FieldViewLogger) -  #eschulmeister - logged in
+2021-04-07 15:09:30,772 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - False
+2021-04-07 16:05:35,499 (DEBUG FieldViewLogger) -  #eschulmeister - logged in
+2021-04-07 16:05:35,533 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:05:35,896 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:07:36,116 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:07:39,649 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:10:19,656 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:10:23,297 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:10:42,555 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:10:42,781 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:10:51,313 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - False
+2021-04-07 16:10:58,545 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:12:46,736 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:12:50,131 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:12:59,622 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:12:59,987 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:13:40,139 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:13:51,588 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:15:27,888 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:15:45,035 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:15:49,574 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:15:59,542 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - False
+2021-04-07 16:16:10,236 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:16:53,070 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:16:55,171 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:18:11,159 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:18:24,746 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:18:25,168 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:18:42,417 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:18:42,855 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - False
+2021-04-07 16:20:41,144 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:20:43,394 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - False
+2021-04-07 16:23:04,911 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:23:08,056 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:23:25,384 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - False
+2021-04-07 16:23:35,732 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:23:36,256 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - False
+2021-04-07 16:23:46,430 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:24:38,356 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:25:02,831 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:25:03,166 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:26:10,200 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:26:10,623 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:26:26,746 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:26:27,206 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:26:32,325 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - False
+2021-04-07 16:26:42,811 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:27:02,692 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:27:03,083 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:28:07,316 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:28:13,948 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:28:39,065 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:28:39,888 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:29:14,179 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:29:14,993 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:29:53,050 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:29:53,819 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:31:46,482 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:31:47,337 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:32:33,000 (DEBUG FieldViewLogger) - GetRun URL: https://localhost:44344/api/run?ID=0&amp;amp;drvCd=1149
+2021-04-07 16:32:33,834 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:33:12,743 (DEBUG FieldViewLogger) -  #eschulmeister - logged in
+2021-04-07 16:33:13,153 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:33:17,607 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 16:33:30,650 (DEBUG FieldViewLogger) -  Run - 996367;  can complete ? - True
+2021-04-07 16:33:39,047 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 16:33:44,756 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:33:49,533 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - False
+2021-04-07 16:34:01,542 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 16:34:10,920 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 16:34:20,368 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 16:34:39,110 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 16:34:41,453 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 19:17:53,490 (DEBUG FieldViewLogger) -  #eschulmeister - logged in
+2021-04-07 19:18:00,171 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 19:20:01,331 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 19:20:24,058 (DEBUG FieldViewLogger) -  Run - 996367;  can complete ? - True
+2021-04-07 19:21:03,288 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 19:22:41,982 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 19:22:48,866 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 19:23:21,906 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 19:23:31,341 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 19:52:16,423 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 19:52:39,434 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 19:52:39,441 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 19:53:18,399 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:02:50,135 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:03:27,379 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:04:36,069 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:04:42,011 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:05:16,928 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:05:22,696 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:08:41,760 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:08:57,522 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:09:57,382 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:10:57,061 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:11:00,400 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:11:04,670 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:11:11,429 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:11:11,436 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:11:24,436 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:14:32,711 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:14:35,790 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:15:02,924 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:15:05,756 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:15:41,629 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:16:36,233 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:17:02,421 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:19:19,641 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:19:22,899 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:19:50,131 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:20:08,042 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:20:10,894 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:20:30,315 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:20:32,806 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:22:28,548 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:22:32,184 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:23:12,518 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:23:15,469 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:29:44,547 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:29:48,434 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:29:48,441 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:30:07,274 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:30:41,327 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:30:44,888 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:31:15,396 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:31:19,132 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:31:48,862 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:31:51,837 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:33:30,848 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:33:34,947 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False
+2021-04-07 20:34:07,812 (DEBUG FieldViewLogger) -  Run - 996425;  can complete ? - True
+2021-04-07 20:34:10,993 (DEBUG FieldViewLogger) -  Run - 996384;  can complete ? - False

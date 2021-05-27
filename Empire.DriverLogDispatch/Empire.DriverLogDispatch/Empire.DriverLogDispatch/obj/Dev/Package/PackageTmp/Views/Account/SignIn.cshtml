@@ -1,0 +1,74 @@
+﻿@using Empire.DriverLog.Controllers;
+
+@model  Empire.DriverLog.Models.SignInModel
+@{
+    ViewBag.Title = "Login";
+
+}
+
+<script src="~/Scripts/app/Browser.js"></script>
+
+<script src="~/Scripts/app/SignIn.js"></script>
+
+<div class="container" style="padding-left: 350px;" id="mainDiv">
+    <div class="row" style="background-color:#e6e5e5; width: 480px; padding-bottom: 30px; padding-top: 30px">
+        <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-4 text-center" style="width: 85%; padding-left: 100px;">
+
+
+            @*@if (ViewBag.websiteIsDown)
+                {
+                    @<div class="border p-4 mt-3">
+                        @Html.Raw(ViewBag.websiteDownMessage)
+                    </div>
+                }*@
+
+
+            @using (Html.BeginForm("SignIn", "Account", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+
+                if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="alert alert-danger alert-dismissable font-weight-bold letter-spaced form-group-lg">
+                        @Html.ValidationMessage(AccountController.LoginErrorKey)
+                    </div>
+                }
+
+                <div class="class=" col-md-6 offset-md-3 col-lg-4 offset-lg-4">
+                    <div Class="card bg-light">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="~/Images/logo-empire.png" height="80" style="width: auto; padding-bottom: 15px" />
+                            </div>
+                            <div Class="form-group mt-4">
+                                @Html.TextBoxFor(m => m.Username, new { placeholder = "User Name", @class = "form-control", required = "required", style = "display: inline" })
+                                <span style="color:red; font-size: 20px; vertical-align: middle;">*</span>
+
+
+                            </div>
+                            <div class="form-group">
+                                @Html.PasswordFor(m => m.Password, new { placeholder = "Password", @class = "form-control", required = "required", style = "display: inline" })
+                                <span style="color:red; font-size: 20px; vertical-align: middle;">*</span>
+
+                            </div>
+                            <div class="text-center">
+                                <label class="font-small font-weight-bold letter-spaced text-uppercase">
+                                    @Html.CheckBoxFor(m => m.WillRememberUser, new { @class = "checkbox-lg" })
+                                    Remember Me
+                                </label>
+                            </div>
+                            <button class="btn btn-primary btn-block mt-1">Sign In</button>
+                            @*<div class="text-center pt-3 small">
+                                    <a href="@Url.Action("SendPasswordReset")">Forgot your password?</a>
+                                </div>*@
+                        </div>
+                    </div>
+
+                </div>
+
+            }
+
+        </div>
+    </div>
+</div>
+

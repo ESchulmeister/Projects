@@ -1,0 +1,28 @@
+﻿@using Empire.Shared.Utilities;
+@using Empire.DriverLog.Business;
+
+@{
+    bool bAuthenticated = this.User.Identity.IsAuthenticated;
+    string applicationName = AppSettings.Current.ApplicationName;
+
+    var oUser = Application.Current.User;
+
+    var _User = (oUser == null) ? "Welcome!" : $"Welcome, {oUser.FirstName}!";
+}
+
+<div class="container">
+    <div class="letter-spaced">
+        @if (bAuthenticated)
+        {
+            <span style="color:#b21515">@_User</span>
+
+        }
+        &nbsp;
+        @if (bAuthenticated)
+        {
+            <a href="@Url.Action("SignOut", "Account")"><span class="fas fa-sign-out-alt" style="color:navy"></span>Sign Out</a>
+        }
+    </div>
+
+</div>
+

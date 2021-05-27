@@ -1,0 +1,11 @@
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Data\bin\DriverLog_Dev\Empire.DriverLogDispatch.Data.dll
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Data\bin\DriverLog_Dev\Empire.DriverLogDispatch.Data.pdb
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Data\bin\DriverLog_Dev\Empire.Shared.Data.dll
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Data\bin\DriverLog_Dev\Empire.Shared.Utilities.dll
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Data\bin\DriverLog_Dev\Empire.Shared.Data.pdb
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Data\bin\DriverLog_Dev\Empire.Shared.Utilities.pdb
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Data\obj\DriverLog_Dev\Empire.DriverLogDispatch.Data.csprojAssemblyReference.cache
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Data\obj\DriverLog_Dev\Empire.DriverLogDispatch.Data.csproj.CoreCompileInputs.cache
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Data\obj\DriverLog_Dev\Empire.DriverLogDispatch.Data.csproj.CopyComplete
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Data\obj\DriverLog_Dev\Empire.DriverLogDispatch.Data.dll
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Data\obj\DriverLog_Dev\Empire.DriverLogDispatch.Data.pdb

@@ -1,0 +1,44 @@
+﻿@using Empire.Shared.Utilities
+@using Empire.DriverLogDispatch.Business
+
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    let baseUrl = '@ViewBag.BaseUrl';
+</script>
+
+
+
+<div class="container" style="padding-left: 350px;">
+    <div class="row" style="background-color:transparent; width: 480px; padding-bottom: 30px; padding-top: 30px">
+        <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-4 text-center" style="width: 100%;">
+
+
+
+            @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+
+            <div class="class=" col-md-6 offset-md-3 col-lg-4 offset-lg-4">
+                <div Class="card" >
+                    <div class="card-body" id="divGrid">
+                        <table border="0" id="CustomerTable" class="table-responsive table nowrap" cellspacing="0" width="100%">
+                        </table>
+                    </div>
+
+                </div>
+
+
+
+                <!--bg-light dataTables_sizing:-->
+
+            </div>
+
+            }
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    bool bHaveException = (Model != null && Model.Exception != null);
+    string sMessage = (bHaveException) ? Model.Exception.Message : "Application Error has occurred";
+}
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Application Error</title>
+    </head>
+    <body>
+        <hgroup>
+            <h1 >Error</h1>
+            <h2>@sMessage</h2>
+        </hgroup>
+        <div>
+            @if (bHaveException)
+            {
+                <span>Stack Trace:</span>
+
+                @Model.Exception.StackTrace
+            }
+        </div>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empire.DriverLog", "Empire.DriverLogDispatch\Empire.DriverLog.csproj", "{1A677058-2F1C-4002-B66C-A3DDBBF5E330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empire.DriverLogDispatch.Business", "Empire.DriverLogDispatch.Business\Empire.DriverLogDispatch.Business.csproj", "{190F259F-3221-484D-944A-D2A46F6B851C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empire.DriverLogDispatch.Data", "Empire.DriverLogDispatch.Data\Empire.DriverLogDispatch.Data.csproj", "{32E999FE-EB71-4EA1-A3E8-30E7653C7469}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Dev|Any CPU = Dev|Any CPU
+		Prod|Any CPU = Prod|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A677058-2F1C-4002-B66C-A3DDBBF5E330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A677058-2F1C-4002-B66C-A3DDBBF5E330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A677058-2F1C-4002-B66C-A3DDBBF5E330}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{1A677058-2F1C-4002-B66C-A3DDBBF5E330}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{1A677058-2F1C-4002-B66C-A3DDBBF5E330}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{1A677058-2F1C-4002-B66C-A3DDBBF5E330}.Prod|Any CPU.Build.0 = Prod|Any CPU
+		{1A677058-2F1C-4002-B66C-A3DDBBF5E330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A677058-2F1C-4002-B66C-A3DDBBF5E330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190F259F-3221-484D-944A-D2A46F6B851C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190F259F-3221-484D-944A-D2A46F6B851C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190F259F-3221-484D-944A-D2A46F6B851C}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{190F259F-3221-484D-944A-D2A46F6B851C}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{190F259F-3221-484D-944A-D2A46F6B851C}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{190F259F-3221-484D-944A-D2A46F6B851C}.Prod|Any CPU.Build.0 = Prod|Any CPU
+		{190F259F-3221-484D-944A-D2A46F6B851C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190F259F-3221-484D-944A-D2A46F6B851C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E999FE-EB71-4EA1-A3E8-30E7653C7469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E999FE-EB71-4EA1-A3E8-30E7653C7469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E999FE-EB71-4EA1-A3E8-30E7653C7469}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{32E999FE-EB71-4EA1-A3E8-30E7653C7469}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{32E999FE-EB71-4EA1-A3E8-30E7653C7469}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{32E999FE-EB71-4EA1-A3E8-30E7653C7469}.Prod|Any CPU.Build.0 = Prod|Any CPU
+		{32E999FE-EB71-4EA1-A3E8-30E7653C7469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E999FE-EB71-4EA1-A3E8-30E7653C7469}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2786A5BC-ABF1-4F7A-8A94-B78A4223E2A3}
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

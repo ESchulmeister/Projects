@@ -1,0 +1,137 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.Tests\\Empire.DriverLogDispatch.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.Business\\Empire.DriverLogDispatch.Business.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.Business\\Empire.DriverLogDispatch.Business.csproj",
+        "projectName": "Empire.DriverLogDispatch.Business",
+        "projectPath": "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.Business\\Empire.DriverLogDispatch.Business.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.Data\\Empire.DriverLogDispatch.Data.csproj": {
+                "projectPath": "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.Data\\Empire.DriverLogDispatch.Data.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.Data\\Empire.DriverLogDispatch.Data.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.Data\\Empire.DriverLogDispatch.Data.csproj",
+        "projectName": "Empire.DriverLogDispatch.Data",
+        "projectPath": "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.Data\\Empire.DriverLogDispatch.Data.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.Tests\\Empire.DriverLogDispatch.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.Tests\\Empire.DriverLogDispatch.Tests.csproj",
+        "projectName": "Empire.DriverLogDispatch.Tests",
+        "projectPath": "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.Tests\\Empire.DriverLogDispatch.Tests.csproj",
+        "packagesPath": "C:\\Users\\elena\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\elena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.csproj": {
+                "projectPath": "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.Razor": {
+              "target": "Package",
+              "version": "[3.2.7, )"
+            },
+            "Microsoft.AspNet.WebPages": {
+              "target": "Package",
+              "version": "[3.2.7, )"
+            },
+            "Microsoft.Web.Infrastructure": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.csproj",
+        "projectName": "Empire.DriverLogDispatch",
+        "projectPath": "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.Business\\Empire.DriverLogDispatch.Business.csproj": {
+                "projectPath": "C:\\Users\\elena\\source\\repos\\Empire.DriverLogDispatch\\Empire.DriverLogDispatch.Business\\Empire.DriverLogDispatch.Business.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}

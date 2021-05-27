@@ -1,0 +1,145 @@
+﻿@using Empire.DriverLogDispatch.Business;
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var oCurrUser = Application.Current.User;
+
+    var oDriver = (oCurrUser as Driver);
+
+    bool bAdmin = (oDriver == null);
+
+    int iRunNumber = (oDriver == null || oDriver.CurrentRun == null) ? 0 : oDriver.CurrentRun.Number;
+
+    string sCurrentUsrLocation = (oCurrUser.Location == null) ? null : oCurrUser.Location.Code;
+
+}
+
+@section Scripts
+{
+    <script>
+        baseUrl = '@ViewBag.BaseUrl';
+
+        currentRunNumber = @iRunNumber.ToString();
+
+        let userLocation = '@sCurrentUsrLocation';
+        isAdmin = @bAdmin.ToString().ToLower();
+
+    </script>
+}
+
+
+
+<div class="text-center">
+
+
+    <div id="divDropdowns" style="padding-bottom:20px;">
+        <div class="text-left" style="width: 30%; float: left">
+            <label for="ddlLocation">Locations</label>
+            <select id="ddlLocation" style="width: 120px;"></select>
+        </div>
+        <div class="text-left" style="width: 70%; float: left">
+            <label for="ddlDriver">Drivers</label>
+            <select id="ddlDriver" style="width: 240px;"></select>
+        </div>
+    </div>
+
+    <div style="padding-top: 15px; padding-bottom:20px;">
+        <hr style="background-color:#dec32c; height: 1px; border: 0;" />
+    </div>
+
+    <div id="divCustTitle"  style="color:#285cd9">
+
+    </div>
+    <div id="divGrid">
+        <div id="grid"> </div>
+    </div>
+
+</div>
+
+
+
+<div class="modal" id="modCustomer" role="dialog" tabindex="-1" style="display: none">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button id="btnClose" type="button" class="close" data-dismiss="modal"> &times;</button>
+                <div class="modal-title" style="color:#630e0e;">
+                    <span id="custPopupTitle"> </span> Customer
+                </div>
+            </div>
+
+            <div class="modal-body">
+
+                <div class="Table">
+
+                    <div class="Row">
+                        <div class="Cell text-center">
+                            <p>
+                                <span class="bold">
+                                    Customer Name:
+                                </span>
+                            </p>
+                        </div>
+
+                        <div class="Cell text-center">
+                            <p>
+                                <span id="roCustName"> </span>
+                                <input type="text" id="rwCustName" style="width:250px" maxlength="30" />
+                                <span style="color:red; font-size: 20px; vertical-align: middle;" id="valCustomer"> *</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    @*<div class="Row">
+                        <div class="Cell">
+                            <p>
+                                <span class="bold">
+                                    Address:
+                                </span>
+                            </p>
+                        </div>
+
+
+                        <div class="Cell">
+                            <p>
+                                <span id="roCustAddress">  </span>
+                            </p>
+                        </div>
+
+                    </div>*@
+
+                
+                 
+
+                    @*
+                    @*<span id="roCustomerName" >
+            Customer Name : <span id="custName"> </span>
+        </span>
+
+        <span id="roCustomerAddress">
+            Customer Address : <span id="custAddress"> </span>
+            <span style="color:red; font-size: 20px; vertical-align: middle;" id="valCustomer"> *</span>
+        </span>
+
+        <span id="rwCustomerName">
+            Customer Name:
+        </span>
+
+        <span id="rwCustomerAddress" >
+            Address : <input type="text" id="txtCustAddress" style="width:250px" maxlength="30" />
+            <span style="color:red; font-size: 20px; vertical-align: middle;" id="valCustomer"> *</span>
+
+        </span>*@
+
+                </div>
+
+                <div class="modal-footer" id="divButtons">
+                    <button type="button" class="btn btn-primary" data-save="modal" id="custSave"> Save</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="custClose"> Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

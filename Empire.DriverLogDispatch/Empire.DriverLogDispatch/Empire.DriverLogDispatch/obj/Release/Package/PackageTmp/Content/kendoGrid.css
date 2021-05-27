@@ -1,0 +1,40 @@
+﻿
+   
+    
+    
+.k-header .k-link
+{
+    text-align: center;
+    color: #0094ff;
+}
+
+.checkbox-align {
+    text-align: center !important;
+    padding: 0 !important;
+}
+
+.k-grid tr .checkbox-align {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#grid {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    height: 100%; /* DO NOT USE !important for setting the Grid height! */
+}
+
+
+
+.k-grid .k-state-selected {
+    background: #f2d3d3
+}
+
+.k-grid-toolbar {
+    font-size:larger;
+    font-weight:700;
+    color:#741717;
+    padding-bottom:10px;
+    padding-top:10px;
+}

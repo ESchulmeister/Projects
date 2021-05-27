@@ -1,0 +1,17 @@
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\bin\_Dev\Empire.DriverLogDispatch.Business.dll
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\bin\_Dev\Empire.DriverLogDispatch.Business.pdb
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\bin\_Dev\Empire.DriverLogDispatch.Data.dll
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\bin\_Dev\Empire.Shared.Business.dll
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\bin\_Dev\Empire.Shared.Data.dll
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\bin\_Dev\Empire.Shared.Utilities.dll
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\bin\_Dev\Newtonsoft.Json.dll
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\bin\_Dev\Empire.DriverLogDispatch.Data.pdb
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\bin\_Dev\Empire.Shared.Business.pdb
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\bin\_Dev\Empire.Shared.Data.pdb
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\bin\_Dev\Empire.Shared.Utilities.pdb
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\bin\_Dev\Newtonsoft.Json.xml
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\obj\_Dev\Empire.DriverLogDispatch.Business.csprojAssemblyReference.cache
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\obj\_Dev\Empire.DriverLogDispatch.Business.csproj.CoreCompileInputs.cache
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\obj\_Dev\Empire.DriverLogDispatch.Business.csproj.CopyComplete
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\obj\_Dev\Empire.DriverLogDispatch.Business.dll
+C:\Users\elena\source\repos\Empire.DriverLogDispatch\Empire.DriverLogDispatch.Business\obj\_Dev\Empire.DriverLogDispatch.Business.pdb

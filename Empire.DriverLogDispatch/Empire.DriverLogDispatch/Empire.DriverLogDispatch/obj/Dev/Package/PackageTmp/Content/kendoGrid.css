@@ -1,0 +1,53 @@
+﻿
+
+.k-header .k-link {
+    text-align: center;
+    color: #0094ff;
+}
+
+#grid {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+
+
+
+#grid .k-grid-header .k-header {
+    color: #2a89ad;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+.k-icon, .k-tool-icon, .k-grouping-dropclue, .k-drop-hint, .k-column-menu .k-sprite, .k-grid-mobile .k-resize-handle-inner:before, .k-grid-mobile .k-resize-handle-inner:after {
+    background-image: none;
+    border-color: transparent;
+}
+
+.k-grid .k-state-selected {
+    background: #f8c5a1;
+}
+
+#grid .k-grid-header {
+    padding: 0 !important;
+}
+
+#grid .k-grid-content {
+    overflow-y: visible;
+}
+
+.k-grid tbody tr {
+    line-height: 14px;
+}
+
+.k-pager-info {
+    color: #d13131
+}
+
+.cNotSortable
+{
+    color:#000000;
+    text-decoration:none;
+}

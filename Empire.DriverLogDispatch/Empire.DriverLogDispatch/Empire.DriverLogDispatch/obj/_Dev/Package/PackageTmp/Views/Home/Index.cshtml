@@ -1,0 +1,207 @@
+﻿@using Empire.DriverLog.Business;
+@using System.Web.Mvc.AssetVersioning;
+
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var oCurrUser = Application.Current.User;
+
+    var oDriver = (oCurrUser as Driver);
+    bool bAdmin = (oDriver == null);
+
+    int iRunNumber = (oDriver == null || oDriver.CurrentRun == null) ? 0 : oDriver.CurrentRun.Number;
+    string sNote = (oDriver == null || oDriver.CurrentRun == null) ? String.Empty : oDriver.CurrentRun.Note;
+    string sDriverName = (oDriver == null) ? String.Empty : $"{oDriver.FirstName} {oDriver.LastName}";
+    string sTruckNumber = (oDriver == null || oDriver.CurrentRun == null) ? String.Empty : oDriver.CurrentRun.TruckNumber;
+
+    string sCurrentUsrLocation = (oCurrUser.Location == null) ? null : oCurrUser.Location.Code;
+
+}
+
+
+
+@section Scripts
+{
+
+    <script src="@Url.VersionedContent("~/Scripts/app/HomeIndex.js")" type="text/javascript"></script>
+
+    <script>
+        baseUrl = '@ViewBag.BaseUrl';
+
+        let currentRunNumber = @iRunNumber.ToString();
+        let currentRunNote = '@sNote';
+        let driverName = '@sDriverName';
+        let truckNumber = '@sTruckNumber';
+
+        let userLocation = '@sCurrentUsrLocation';
+        isAdmin = @bAdmin.ToString().ToLower();
+
+        let preservedLocation = '';
+        let preservedDriver = '';
+        let preservedSequence = '';
+
+    </script>
+}
+
+@using (Html.BeginForm())
+{
+<div class="text-center">
+    <div id="errorDiv" class="alert-danger "></div>
+
+ 
+    <div id="divAdmin">
+
+        <div style="padding-top: 15px; padding-bottom: 25px;">
+            <div class="text-left" style="width: 30%; float: left">
+                @Html.Label("Locations", htmlAttributes: new { @class = "custLabel" })
+                <select id="ddlLocation" style="width: auto;display:inline" class="custDropdown"></select>
+            </div>
+            <div class="text-left" style="width: 70%; float: left">
+                @Html.Label("Drivers", htmlAttributes: new { @class = "custLabel" })
+                <select id="ddlDriver" style="width:auto;display:inline" class="custDropdown"></select>
+            </div>
+        </div>
+   
+        <div style="padding-top: 0px; padding-bottom:5px;">
+            <hr class="custHR" />
+        </div>
+    </div>
+   
+
+    <div id="divDriverTitle" class="custTitle"></div>
+
+    <div id="divGrid" style="height: 360px; overflow-y:auto; width: 100%">
+        <div id="grid"> </div>
+    </div>
+
+    <div class="Table" style="padding-top: 20px; width: 100%" id="divNotes">
+        <div class="Row">
+            <div class="Cell" style="text-align:left;font-size:13px;">
+                <i>These should be general run notes or questions about the app. These notes should not be about stops.</i>
+            </div>
+         </div>
+
+        <div class="Row">
+            <div class="Cell" style="text-align:left">
+                @Html.Label("Driver's Notes", htmlAttributes: new { @class = "smallLabel" })
+                <a id="refEditNote" href="#" style="color:#085f27;font-size:14px;font-weight:700">Edit Note</a>
+            </div>
+        </div>
+        <div class="Row">
+            <div class="Cell">
+                <textarea id="txtNoteRO" class="custNotes" readonly="readonly" style="min-height: 80px"></textarea>
+            </div>
+        </div>
+        </div>
+
+
+    <div style="padding-top:15px; padding-bottom:15px;">
+        <button type="button" id="btnDone" class="btn btn-secondary cbutton">Ready to Check In</button>
+        <button type="button" id="btnNext" class="btn btn-secondary cbutton">Refresh</button>
+    </div>
+
+</div>
+}
+
+
+
+
+<div class="modal" id="modStop" role="dialog" tabindex="-1" style="display: none">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button id="btnClose" type="button" class="close" data-dismiss="modal"> &times;</button>
+                <div class="modal-title">
+                    <span id="stopPopupTitle" class="custTitle"> </span>
+                </div>
+            </div>
+
+            <div class="modal-body">
+
+                <div class="Table">
+
+                    <div class="Row">
+                        <div class="Cell" style="text-align:center">
+                            @Html.Label("Status", htmlAttributes: new { @class = "custLabel" })
+                            <select id="ddlStatus" style="width: auto;display:inline" class="custDropdown"></select>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer" id="divButtons">
+                        <button type="button" class="btn btn-primary cbutton" data-save="modal" id="custSave" >Save</button>
+                        <button type="button" class="btn btn-secondary cbutton"   data-dismiss="modal" id="custClose">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal" id="modSignature" role="dialog" tabindex="-1" style="display: none">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button id="btnCloseSignature" type="button" class="close" data-dismiss="modal"> &times;</button>
+                <div class="modal-title">
+                    <span class="signTitle">Ready to Check In</span>
+                </div>
+            </div>
+
+            <div class="modal-body">
+
+                <div class="Table">
+
+                    <div class="Row">
+                        <div class="Cell" style="text-align:center">
+                            <canvas id="signature" width="525" height="150" style="border: 1px solid #ddd; border-bottom-color: #262525; border: 1px solid #ddd;" ></canvas>
+                        </div>
+                    </div>
+                    <div class="Row">
+                        <div class="Cell" style="text-align:right;padding-right:20px;padding-top:20px">
+                            <button id="btnClearSignature" class="btn btn-secondary cbutton" >Clear</button>
+                            <button id="btnSaveSignature" class="btn btn-secondary cbutton">Check In</button>
+                            <button id="btnCancelSignature" class="btn btn-secondary cbutton" >Cancel</button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal" id="modNotes" role="dialog" tabindex="-1" style="display: none">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <div class="Table">
+
+                    <div class="Row">
+                        <div class="Cell" style="text-align:left">
+                            @Html.Label("Driver's Notes", htmlAttributes: new { @class = "smallLabel" })
+                        </div>
+                    </div>
+                    <div class="Row">
+                        <div class="Cell " style="text-align:left">
+                            @Html.TextArea("txtNote", htmlAttributes: new { @class = "cTextArea" })
+                        </div>
+                    </div>
+
+                    <div class="modal-footer" id="divButtons">
+                        <button type="button" class="btn btn-primary cbutton" data-save="modal" id="btnSaveNotes">Save</button>
+                        <button type="button" class="btn btn-secondary cbutton"  data-dismiss="modal" id="btnCloseNotes">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

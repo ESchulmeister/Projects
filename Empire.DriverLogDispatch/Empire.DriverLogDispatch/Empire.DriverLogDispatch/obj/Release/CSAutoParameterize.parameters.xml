@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DevDefaultConnection-Web.config Connection String" description="DevDefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=10.1.0.7;Initial Catalog=POY_Dev;User ID=elena;Password=DLog123$" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\elena\\source\\repos\\Empire\.DriverLogDispatch\\Empire\.DriverLogDispatch\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DevDefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="VerinowDevConnection-Web.config Connection String" description="VerinowDevConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=verinow.no-ip.biz,9875;Initial Catalog=POY_dev;User ID=webuser_poy;Password=2Z(nxEZk?n?rLr[y" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\elena\\source\\repos\\Empire\.DriverLogDispatch\\Empire\.DriverLogDispatch\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='VerinowDevConnection']/@connectionString" />
+  </parameter>
+  <parameter name="EmpireBizDevConnection-Web.config Connection String" description="EmpireBizDevConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=DEV-WIN10P\SQLEXPRESS2012;Initial Catalog=EmpireAutoBiz;Persist Security Info=True;User ID=sql_darrenq;Password=asd12345" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\elena\\source\\repos\\Empire\.DriverLogDispatch\\Empire\.DriverLogDispatch\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EmpireBizDevConnection']/@connectionString" />
+  </parameter>
+  <parameter name="EmpireBizProdConnection-Web.config Connection String" description="EmpireBizProdConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=137.116.59.114,15156;Initial Catalog=EmpireAutoBiz;User ID=keypress;Password=r3WR6Am2ucT6$" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\elena\\source\\repos\\Empire\.DriverLogDispatch\\Empire\.DriverLogDispatch\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EmpireBizProdConnection']/@connectionString" />
+  </parameter>
+  <parameter name="empirefileshare-Web.config Connection String" description="empirefileshare Connection String used in web.config by the application to access the database." defaultValue="DefaultEndpointsProtocol=https;AccountName=empirefileshare;AccountKey=v1eJbZDvBQAETzbttxEHlws7W2HK84oxSdpzRlzYysHb2P23hqzmfqWuP1Oz5I3xofJydUBKcxjzFjBcuZEfvA==" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\elena\\source\\repos\\Empire\.DriverLogDispatch\\Empire\.DriverLogDispatch\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='empirefileshare']/@connectionString" />
+  </parameter>
+</parameters>
